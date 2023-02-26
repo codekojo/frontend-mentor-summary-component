@@ -1,0 +1,207 @@
+@font-face {
+  font-family: HankenMedium;
+  src: url("./assets/fonts/static/HankenGrotesk-Medium.ttf");
+}
+
+@font-face {
+  font-family: HankenBold;
+  src: url("./assets//fonts/static/HankenGrotesk-Bold.ttf");
+}
+
+@font-face {
+  font-family: HankenExtraBold;
+  src: url("./assets//fonts/static/HankenGrotesk-ExtraBold.ttf");
+}
+@font-face {
+  font-family: Hanken;
+  src: url("./assets//fonts/HankenGrotesk-VariableFont_wght.ttf");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: whitesmoke;
+}
+
+.container__card {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 520px;
+  /* margin: 40px; */
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 1px solid red; */
+  border-radius: 20px;
+  overflow: hidden;
+  background: hsl(0, 0%, 100%);
+}
+
+.card__left {
+  flex: 1;
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  background-repeat: no-repeat;
+  padding: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  color: #fff;
+  background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.4rem;
+  margin-bottom: 1.4rem;
+}
+
+.score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.student__report {
+  width: 80%;
+  text-align: center;
+}
+
+.header__title {
+  font-family: hankenMedium;
+  font-size: 18px;
+  color: hsla(0, 0%, 100%, 0.7);
+}
+
+.header__title__right {
+  font-family: hankenMedium;
+}
+
+.rating__card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  padding: 0.6rem;
+  margin: 1rem 0;
+}
+
+.first__card {
+  background-color: hsla(0, 100%, 67%, 0.1);
+}
+
+.first__card > .first__container > p {
+  color: hsl(0, 100%, 67%);
+}
+.second__card {
+  background-color: hsla(39, 100%, 56%, 0.1);
+}
+
+.second__card > .first__container > p {
+  color: hsl(39, 100%, 56%);
+}
+.third__card {
+  background-color: hsla(166, 100%, 37%, 0.1);
+}
+.third__card > .first__container > p {
+  color: hsl(166, 100%, 37%);
+}
+.fourth__card {
+  background-color: hsla(234, 85%, 45%, 0.1);
+}
+.fourth__card > .first__container > p {
+  color: hsl(234, 85%, 45%);
+}
+
+.rating__card > h4 {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  /* align-items: flex-end; */
+}
+
+.first__container {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+.first__container > p {
+  font-family: Hanken;
+  font-weight: 500;
+  padding: 0 0.5rem;
+}
+
+.first__container {
+  display: flex;
+}
+
+.score__title {
+  font-family: HankenBold;
+  font-size: 3.5rem;
+}
+
+.student__say {
+  font-family: HankenBold;
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 0.5rem;
+}
+
+.card__right {
+  flex: 1;
+  background: hsl(0, 0%, 100%);
+  padding: 20px;
+}
+
+/* @media all and (max-width: 375px) {
+} */
+
+.score_wow {
+  display: block;
+  color: black;
+  font-family: Hanken;
+  font-weight: bold;
+}
+.percentage {
+  color: gray;
+  /* display: inline-block; */
+}
+
+.btn {
+  background: linear-gradient(hsl(256, 72%, 46%), hsl(241, 72%, 46%));
+  border-radius: 50px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5rem 0;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn > p {
+  font-family: HankenBold;
+}
+p {
+  /* max-inline-size: 30ch; */
+  font-family: Hanken;
+  color: hsla(0, 0%, 100%, 0.7);
+  font-size: 13px;
+}

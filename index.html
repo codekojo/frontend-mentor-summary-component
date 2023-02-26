@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Frontend Mentor | Results summary component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container__card">
+      <!-- left Card -->
+
+      <div class="card">
+        <section class="card__left">
+          <h4 class="header__title">Your Result</h4>
+          <div class="circle">
+            <div class="score">
+              <h2 class="score__title">76</h2>
+              <p>of 100</p>
+            </div>
+          </div>
+          <h3 class="student__say">Great</h3>
+
+          <div class="student__report">
+            <p>
+              You scored higher than 65% of the people who have taken these
+              tests.
+            </p>
+          </div>
+        </section>
+
+        <!-- right card -->
+
+        <section class="card__right">
+          <h3 class="header__title__right">Summary</h3>
+          <div class="rating__container">
+            <div class="rating__card first__card">
+              <div class="first__container">
+                <img src="./assets/images/icon-reaction.svg" alt="" />
+                <p>Reaction</p>
+              </div>
+              <p class="score_wow">
+                80 <span class="percentage"> / 100 </span>
+              </p>
+            </div>
+
+            <div class="rating__card second__card">
+              <div class="first__container">
+                <img src="./assets/images/icon-memory.svg" alt="" />
+                <p>Memory</p>
+              </div>
+              <p class="score_wow">
+                92 <span class="percentage"> / 100 </span>
+              </p>
+            </div>
+
+            <div class="rating__card third__card">
+              <div class="first__container">
+                <img src="./assets/images/icon-verbal.svg" alt="" />
+                <p>Verbal</p>
+              </div>
+              <p class="score_wow">
+                61 <span class="percentage"> / 100 </span>
+              </p>
+            </div>
+
+            <div class="rating__card fourth__card">
+              <div class="first__container">
+                <img src="./assets/images/icon-visual.svg" alt="" />
+                <p>Visual</p>
+              </div>
+              <p class="score_wow">
+                72 <span class="percentage"> / 100 </span>
+              </p>
+            </div>
+          </div>
+
+          <div class="btn">
+            <p>Continue</p>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <!-- Your Result 76 of 100 Great You scored higher than 65% of the people who
+    have taken these tests. Summary Reaction 80 / 100 Memory 92 / 100 Verbal 61
+    / 100 Visual 72 / 100 Continue -->
+
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+  </body>
+</html>
